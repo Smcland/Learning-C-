@@ -1,0 +1,8 @@
+public class Hello1.cs
+{
+  public static void Main()
+  {
+    System.Consold.WriteLine("Hello, World!");
+  }
+}
+
