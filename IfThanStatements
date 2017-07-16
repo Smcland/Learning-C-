@@ -19,11 +19,11 @@ namespace MyFirstProject.day1.examples
             {
                 Console.WriteLine("x is less than y");
             }
-            if (x > y)
+            else if (x > y)
             {
                 Console.WriteLine("x is greater than y");
             }
-            if (x == y)
+            else (x == y)
             {
                 Console.WriteLine("x is equal to y");
             }
