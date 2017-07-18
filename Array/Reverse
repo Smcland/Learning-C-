@@ -1,0 +1,36 @@
+using System;
+
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main()
+        {
+            Array x = Array.CreateInstance(typeof(String), 9);
+            x.SetValue("The", 0);
+            x.SetValue("quick", 1);
+            x.SetValue("brown", 2);
+            x.SetValue("fox", 3);
+            x.SetValue("jumps", 4);
+            x.SetValue("over", 5);
+            x.SetValue("the", 6);
+            x.SetValue("lazy", 7);
+            x.SetValue("dog", 8);
+
+            Console.WriteLine("The Array initially contains the following values:");
+            foreach (string tempvar in x)
+            {
+                Console.WriteLine(tempvar);
+            }
+
+            Array.Reverse(x);
+            Console.WriteLine("After reversing:");
+            foreach (string tempvar in x)
+            {
+                Console.WriteLine(tempvar);
+            }
+
+        }
+    }
+}
